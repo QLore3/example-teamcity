@@ -7,7 +7,7 @@
 
     <groupId>org.netology</groupId>
     <artifactId>plaindoll</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -15,7 +15,6 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
-    <!-- 🔹 Nexus deployment -->
     <distributionManagement>
         <repository>
             <id>nexus</id>
@@ -30,7 +29,6 @@
         </snapshotRepository>
     </distributionManagement>
 
-    <!-- (опционально, но правильно для резолва зависимостей) -->
     <repositories>
         <repository>
             <id>nexus</id>
